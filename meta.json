@@ -1,0 +1,28 @@
+{
+ "name": "tcltk",
+ "version": "8.6.16",
+ "license": "TCL (BSD-style)",
+ "homepage": "https://www.tcl-lang.org",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "tcl8.6.16-src.tar.gz",
+  "tk8.6.16-src.tar.gz"
+ ],
+ "desc": "Tcl and Tk 8.6.16: tclsh, wish (the Tk windowing shell for X), and the libraries Python's tkinter uses",
+ "file": "tcltk-8.6.16.tpkg",
+ "size": 2546644,
+ "sha256": "0286d4b540e3467142735f613733ba7ee743db5268503164335e54712e46ac83",
+ "unpacked": 7232696,
+ "min_build": 618,
+ "depends": [
+  "xorg",
+  "zlib"
+ ],
+ "commands": {
+  "tclsh": "bin/tclsh8.6",
+  "wish": "bin/wish8.6"
+ }
+}

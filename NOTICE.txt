@@ -1,0 +1,5 @@
+Tcl/Tk 8.6.16 for tOS
+=====================
+
+Built from the release tarballs (tcl8.6.16-src.tar.gz and tk8.6.16-src.tar.gz beside this package), unmodified: ./configure --enable-shared --enable-64bit, Tk with --with-x and without Xft. Tk draws through the X server of the xorg package (tos-x starts it). The packages bundled with Tcl (itcl, tdbc, thread, sqlite) are left out. License: the Tcl/Tk license (LICENSE), BSD-style.
+glibc: dynamically linked against the GNU C Library, which tOS's base system carries.
